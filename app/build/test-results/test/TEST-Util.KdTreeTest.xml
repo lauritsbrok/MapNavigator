@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Util.KdTreeTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-09-29T18:58:37" hostname="Mac.hiper.dk" time="0.015">
+  <properties/>
+  <testcase name="containsTest()" classname="Util.KdTreeTest" time="0.002"/>
+  <testcase name="createKdTreeFromListTest()" classname="Util.KdTreeTest" time="0.001"/>
+  <testcase name="getTreeTest()" classname="Util.KdTreeTest" time="0.0"/>
+  <testcase name="nearestNeighborSearchTest()" classname="Util.KdTreeTest" time="0.002"/>
+  <testcase name="getSplitsTest()" classname="Util.KdTreeTest" time="0.0"/>
+  <testcase name="getTest()" classname="Util.KdTreeTest" time="0.0"/>
+  <testcase name="RangeSearchTest()" classname="Util.KdTreeTest" time="0.003"/>
+  <testcase name="equalsTest()" classname="Util.KdTreeTest" time="0.001"/>
+  <testcase name="treeToListTest()" classname="Util.KdTreeTest" time="0.001"/>
+  <testcase name="addNodeToKdTreeTest()" classname="Util.KdTreeTest" time="0.001"/>
+  <testcase name="removeTest()" classname="Util.KdTreeTest" time="0.0"/>
+  <testcase name="getRootTest()" classname="Util.KdTreeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

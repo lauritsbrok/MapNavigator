@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Util.MapMathTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-09-29T18:58:37" hostname="Mac.hiper.dk" time="0.001">
+  <properties/>
+  <testcase name="testMapMath()" classname="Util.MapMathTest" time="0.001"/>
+  <testcase name="testAngles()" classname="Util.MapMathTest" time="0.0"/>
+  <testcase name="calculateDistanceForEachPathTest()" classname="Util.MapMathTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

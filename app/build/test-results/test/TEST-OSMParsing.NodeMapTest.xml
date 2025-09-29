@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OSMParsing.NodeMapTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-09-29T18:58:37" hostname="Mac.hiper.dk" time="0.005">
+  <properties/>
+  <testcase name="assertGetReturnsNull()" classname="OSMParsing.NodeMapTest" time="0.001"/>
+  <testcase name="assertSizeTrue()" classname="OSMParsing.NodeMapTest" time="0.0"/>
+  <testcase name="assertAddNodesWork()" classname="OSMParsing.NodeMapTest" time="0.001"/>
+  <testcase name="assertGetMultipleNodes()" classname="OSMParsing.NodeMapTest" time="0.001"/>
+  <testcase name="assertGet()" classname="OSMParsing.NodeMapTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

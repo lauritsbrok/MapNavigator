@@ -1,0 +1,46 @@
+<Theme>
+    <WayType key="BUILDING" value="yes">
+        <outerColor value="#000000" />
+        <innerColor value="#C6C6C6" />
+        <linewidth value="0.0000004" />
+        <draw value="true" />
+        <fill value="true" />
+        <!-- naturals -->
+    </WayType>
+    <WayType key="LAKE" value="yes">
+        <innerColor value="#A3BFF4" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="WATER" value="yes">
+        <innerColor value="#A3BFF4" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="COASTLINE" value="yes">
+        <outerColor value="#AB64AC" />
+        <innerColor value="#EDFFF0" />
+        <linewidth value="0.00005" />
+        <draw value="true" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="SCRUB" value="yes">
+        <innerColor value="#98A886" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="WOOD" value="yes">
+        <innerColor value="#C9E3CE" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="WETLAND" value="yes">
+        <innerColor value="#0000FF" />
+        <fill value="true" />
+        <opacity value="0.01" />
+    </WayType>
+    <WayType key="SAND" value="yes">
+        <innerColor value="#D0B17A" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="HEATH" value="yes">
+        <innerColor value="#E5E8B6" />
+        <fill value="true" />
+    </WayType>
+</Theme>

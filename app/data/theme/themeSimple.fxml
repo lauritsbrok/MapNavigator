@@ -1,0 +1,186 @@
+<Theme>
+    <!-- naturals -->
+    <WayType key="natural" value="lake">
+        <innerColor value="#A3BFF4" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="natural" value="water">
+        <innerColor value="#A3BFF4" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="natural" value="coastline">
+        <outerColor value="#AB64AC" />
+        <innerColor value="#F8F9FA" />
+        <linewidth value="0.00005" />
+        <draw value="true" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="natural" value="wetland">
+        <innerColor value="#0000FF" />
+        <opacity value="0.01" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="natural" value="sand">
+        <innerColor value="#D0B17A" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="natural" value="beach">
+        <innerColor value="#FEEFC3" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="natural" value="grassland">
+        <innerColor value="#CDEBB1" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="natural" value="heath">
+        <innerColor value="#E5E8B6" />
+        <fill value="true" />
+    </WayType>
+    <!-- man_made -->
+    <WayType key="man_made" value="bridge">
+        <innerColor value="#868686" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="man_made" value="breakwater">
+        <innerColor value="#A3BFF4" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="man_made" value="embankment">
+        <outerColor value="#A9A9A9" />
+        <linewidth value="0.00001" />
+        <depth value="3" />
+        <draw value="true" />
+    </WayType>
+    <!-- Waterway -->
+    <WayType key="waterway" value="stream">
+        <outerColor value="#A3BFF4" />
+        <linewidth value="0.00008" />
+        <depth value="3" />
+        <draw value="true" />
+    </WayType>
+    <WayType key="waterway" value="river">
+        <outerColor value="#A3BFF4" />
+        <linewidth value="0.00008" />
+        <depth value="0.4" />
+        <draw value="true" />
+    </WayType>
+    <!-- Railway -->
+    <WayType key="railway" value="rail">
+        <outerColor value="#676767" />
+        <linewidth value="0.00006" />
+        <linedashes value="0.0005" />
+        <depth value="0.4" />
+        <draw value="true" />
+    </WayType>
+    <WayType key="railway" value="light_rail">
+        <linedashes value="0.0005" />
+        <outerColor value="#676767" />
+        <linewidth value="0.0001" />
+        <depth value="0.4" />
+        <draw value="true" />
+    </WayType>
+    <WayType key="railway" value="platform">
+        <innerColor value="#BCBABB" />
+        <fill value="true" />
+        <depth value="4" />
+    </WayType>
+    <!-- Landuse -->
+    <WayType key="landuse" value="residential">
+        <innerColor value="#F7F8F9" />
+        <fill value="true" />
+    </WayType>
+    <WayType key="landuse" value="grass">
+        <innerColor value="#CDEBB0" />
+        <fill value="true" />
+    </WayType>
+    <!-- Route -->
+    <WayType key="route" value="ferry">
+        <outerColor value="#808ef4" />
+        <linewidth value="0.0001" />
+        <depth value="3" />
+        <draw value="true" />
+    </WayType>
+    <!-- Highway -->
+    <WayType key="highway" value="motorway">
+        <outerColor value="#FDE293" />
+        <depth value="0.01" />
+        <linewidth value="0.00015" />
+        <draw value="true" />
+        <outline value="true" />
+    </WayType>
+    <WayType key="highway" value="primary">
+        <outerColor value="#FDE293" />
+        <depth value="0.01" />
+        <linewidth value="0.0001" />
+        <draw value="true" />
+        <outline value="true" />
+    </WayType>
+    <WayType key="highway" value="secondary">
+        <outerColor value="#FFFFFF" />
+        <linewidth value="0.00020" />
+        <depth value="0.4" />
+        <draw value="true" />
+        <outline value="true" />
+    </WayType>
+    <WayType key="highway" value="tertiary">
+        <outerColor value="#FFFFFF" />
+        <linewidth value="0.00015" />
+        <draw value="true" />
+        <depth value="0.4" />
+        <outline value="true" />
+    </WayType>
+    <WayType key="highway" value="residential">
+        <outerColor value="#FFFFFF" />
+        <linewidth value="0.00010" />
+        <depth value="1" />
+        <draw value="true" />
+        <outline value="true" />
+    </WayType>
+    <WayType key="highway" value="cycleway">
+        <outerColor value="#9BB3E2" />
+        <linewidth value="0.000005" />
+        <depth value="5" />
+        <draw value="true" />
+        <linedashes value="0.00003" />
+    </WayType>
+    <WayType key="highway" value="footway">
+        <outerColor value="#5AB974" />
+        <linewidth value="0.000005" />
+        <draw value="true" />
+        <linedashes value="0.00003" />
+        <depth value="5" />
+    </WayType>
+    <WayType key="highway" value="service">
+        <outerColor value="#FFFFFF" />
+        <linewidth value="0.00002" />
+        <draw value="true" />
+        <depth value="1" />
+        <outline value="true" />
+    </WayType>
+    <WayType key="highway" value="unclassified">
+        <outerColor value="#FFFFFF" />
+        <linewidth value="0.00004" />
+        <depth value="3" />
+        <draw value="true" />
+        <outline value="true" />
+    </WayType>
+    <WayType key="highway" value="pedestrian">
+        <outerColor value="#FFFFFF" />
+        <linewidth value="0.00002" />
+        <depth value="3" />
+        <draw value="true" />
+    </WayType>
+    <!-- Aeroway -->
+    <WayType key="aeroway" value="runway">
+        <outerColor value="#BCBCCC" />
+        <linewidth value="0.0005" />
+        <depth value="0.2" />
+        <draw value="true" />
+    </WayType>
+    <WayType key="aeroway" value="taxiway">
+        <outerColor value="#BCBCCC" />
+        <linewidth value="0.0001" />
+        <depth value="0.2" />
+        <draw value="true" />
+    </WayType>
+</Theme>

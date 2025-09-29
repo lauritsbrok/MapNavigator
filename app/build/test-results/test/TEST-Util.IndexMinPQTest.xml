@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Util.IndexMinPQTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2025-09-29T18:58:37" hostname="Mac.hiper.dk" time="0.011">
+  <properties/>
+  <testcase name="testdelete()" classname="Util.IndexMinPQTest" time="0.0"/>
+  <testcase name="testDecreaseKey()" classname="Util.IndexMinPQTest" time="0.0"/>
+  <testcase name="testKeyOf()" classname="Util.IndexMinPQTest" time="0.001"/>
+  <testcase name="testSize()" classname="Util.IndexMinPQTest" time="0.0"/>
+  <testcase name="testMinIndex()" classname="Util.IndexMinPQTest" time="0.0"/>
+  <testcase name="testIndexMinPQ()" classname="Util.IndexMinPQTest" time="0.0"/>
+  <testcase name="testIncreaseKey()" classname="Util.IndexMinPQTest" time="0.0"/>
+  <testcase name="testValidateIndex()" classname="Util.IndexMinPQTest" time="0.002"/>
+  <testcase name="testDelMin()" classname="Util.IndexMinPQTest" time="0.001"/>
+  <testcase name="testInsert()" classname="Util.IndexMinPQTest" time="0.0"/>
+  <testcase name="testMinKey()" classname="Util.IndexMinPQTest" time="0.0"/>
+  <testcase name="testIsEmpty()" classname="Util.IndexMinPQTest" time="0.0"/>
+  <testcase name="testIterator()" classname="Util.IndexMinPQTest" time="0.001"/>
+  <testcase name="testChangeKey()" classname="Util.IndexMinPQTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,349 @@
+<Theme>
+    <!-- naturals -->
+    <WayType key="natural" value="lake">
+        <depth value="0.1" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="natural" value="water">
+        <depth value="0.1" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="natural" value="coastline">
+        <linewidth value="0.00005" />
+        <draw value="true" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="natural" value="scrub">
+        <depth value="0.4" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="natural" value="wood">
+        <depth value="0.4" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="natural" value="wetland">
+        <depth value="0.4" />
+        <opacity value="0.1" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="natural" value="sand">
+        <depth value="2" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="natural" value="beach">
+        <depth value="0.4" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="natural" value="grassland">
+        <depth value="0.4" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="natural" value="heath">
+        <depth value="0.1" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <!-- Amenity -->
+    <WayType key="amenity" value="parking">
+        <fill value="true" />
+        <linewidth value="0.000002" />
+        <depth value="2" />
+        <draw value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="amenity" value="bicycle_parking">
+        <fill value="true" />
+        <linewidth value="0.000002" />
+        <depth value="2" />
+        <draw value="true" />
+        <random value="true" />
+    </WayType>
+    <!-- man_made -->
+    <WayType key="man_made" value="bridge">
+        <depth value="3" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="man_made" value="breakwater">
+        <depth value="3" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="man_made" value="pier">
+        <linewidth value="0.00003" />
+        <depth value="3" />
+        <draw value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="man_made" value="embankment">
+        <linewidth value="0.00001" />
+        <depth value="3" />
+        <draw value="true" />
+        <random value="true" />
+    </WayType>
+    <!-- Waterway -->
+    <WayType key="waterway" value="stream">
+        <linewidth value="0.00008" />
+        <depth value="3" />
+        <draw value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="waterway" value="river">
+        <linewidth value="0.00008" />
+        <depth value="0.4" />
+        <draw value="true" />
+        <random value="true" />
+    </WayType>
+    <!-- Railway -->
+    <WayType key="railway" value="rail">
+        <linewidth value="0.00002" />
+        <linedashes value="0.00005" />
+        <depth value="0.4" />
+        <draw value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="railway" value="light_rail">
+        <linedashes value="0.00008" />
+        <linewidth value="0.00002" />
+        <depth value="0.4" />
+        <draw value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="railway" value="platform">
+        <fill value="true" />
+        <depth value="4" />
+        <random value="true" />
+    </WayType>
+    <!-- Landuse -->
+    <WayType key="landuse" value="farmland">
+        <fill value="true" />
+        <depth value="0.4" />
+        <random value="true" />
+    </WayType>
+    <WayType key="landuse" value="farmyard">
+        <depth value="0.4" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="landuse" value="residential">
+        <innerColor value="#F2F3F4" />
+        <depth value="2" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="landuse" value="forest">
+        <depth value="0.1" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="landuse" value="meadow">
+        <depth value="0.4" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="landuse" value="industrial">
+        <depth value="0.8" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="landuse" value="grass">
+        <depth value="0.2" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="landuse" value="military">
+        <fill value="false" />
+        <random value="true" />
+    </WayType>
+    <!-- Route -->
+    <WayType key="route" value="ferry">
+        <linewidth value="0.0001" />
+        <depth value="0.1" />
+        <draw value="true" />
+        <random value="true" />
+    </WayType>
+    <!-- Water -->
+    <WayType key="water" value="ditch">
+        <linewidth value="0.00004" />
+        <depth value="3" />
+        <draw value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="water" value="ditch_tunnel">
+        <linewidth value="0.00004" />
+        <depth value="3" />
+        <draw value="true" />
+        <random value="true" />
+    </WayType>
+    <!-- Leisure -->
+    <WayType key="leisure" value="quarry">
+        <depth value="6" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="leisure" value="stadium">
+        <depth value="6" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="leisure" value="sport">
+        <depth value="6" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="leisure" value="park">
+        <depth value="0.2" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="leisure" value="playground">
+        <depth value="2" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <!-- Building -->
+    <WayType key="building" value="school">
+        <linewidth value="0.000002" />
+        <draw value="true" />
+        <fill value="true" />
+        <depth value="7" />
+        <random value="true" />
+    </WayType>
+    <WayType key="building" value="train_station">
+        <innerColor value="#d8d8d8" />
+        <outerColor value="#afafaf" />
+        <linewidth value="0.000002" />
+        <draw value="true" />
+        <fill value="true" />
+        <depth value="7" />
+        <random value="true" />
+    </WayType>
+    <WayType key="building" value="roof">
+        <linewidth value="0.000002" />
+        <draw value="true" />
+        <fill value="true" />
+        <depth value="7" />
+        <random value="true" />
+    </WayType>
+    <WayType key="building" value="yes">
+        <innerColor value="#d8d8d8" />
+        <outerColor value="#afafaf" />
+        <linewidth value="0.000002" />
+        <draw value="true" />
+        <fill value="true" />
+        <depth value="7" />
+        <random value="true" />
+    </WayType>
+    <WayType key="building" value="detached">
+        <linewidth value="0.000002" />
+        <draw value="true" />
+        <fill value="true" />
+        <depth value="7" />
+        <random value="true" />
+    </WayType>
+    <!-- Highway -->
+    <WayType key="highway" value="motorway">
+        <outerColor value="#FDE293" />
+        <depth value="0.01" />
+        <linewidth value="0.00015" />
+        <draw value="true" />
+        <outline value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="highway" value="primary">
+        <depth value="0.01" />
+        <linewidth value="0.0001" />
+        <draw value="true" />
+        <outline value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="highway" value="secondary">
+        <linewidth value="0.00020" />
+        <depth value="0.8" />
+        <draw value="true" />
+        <outline value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="highway" value="tertiary">
+        <linewidth value="0.00015" />
+        <draw value="true" />
+        <depth value="0.4" />
+        <outline value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="highway" value="residential">
+        <linewidth value="0.00010" />
+        <depth value="3" />
+        <draw value="true" />
+        <outline value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="highway" value="cycleway">
+        <linewidth value="0.000005" />
+        <depth value="5" />
+        <draw value="true" />
+        <linedashes value="0.00003" />
+        <random value="true" />
+    </WayType>
+    <WayType key="highway" value="footway">
+        <outerColor value="#5AB974" />
+        <linewidth value="0.000005" />
+        <draw value="true" />
+        <linedashes value="0.0001" />
+        <depth value="5" />
+        <random value="true" />
+    </WayType>
+    <WayType key="highway" value="service">
+        <linewidth value="0.00002" />
+        <draw value="true" />
+        <depth value="3" />
+        <outline value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="highway" value="unclassified">
+        <linewidth value="0.00004" />
+        <depth value="3" />
+        <draw value="true" />
+        <outline value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="highway" value="pedestrian">
+        <linewidth value="0.00002" />
+        <depth value="3" />
+        <draw value="true" />
+        <random value="true" />
+    </WayType>
+    <!-- tourism -->
+    <WayType key="tourism" value="picnic_site">
+        <depth value="4" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+    <!-- Aeroway -->
+    <WayType key="aeroway" value="runway">
+        <linewidth value="0.0005" />
+        <depth value="0.2" />
+        <draw value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="aeroway" value="taxiway">
+        <linewidth value="0.0001" />
+        <depth value="0.2" />
+        <draw value="true" />
+        <random value="true" />
+    </WayType>
+    <WayType key="aeroway" value="apron">
+        <depth value="0.2" />
+        <fill value="true" />
+        <random value="true" />
+    </WayType>
+</Theme>

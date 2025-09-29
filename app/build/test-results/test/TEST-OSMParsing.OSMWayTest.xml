@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OSMParsing.OSMWayTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-09-29T18:58:37" hostname="Mac.hiper.dk" time="0.006">
+  <properties/>
+  <testcase name="constructorTest()" classname="OSMParsing.OSMWayTest" time="0.001"/>
+  <testcase name="addNodes()" classname="OSMParsing.OSMWayTest" time="0.001"/>
+  <testcase name="addNode()" classname="OSMParsing.OSMWayTest" time="0.0"/>
+  <testcase name="getFirstPoint()" classname="OSMParsing.OSMWayTest" time="0.001"/>
+  <testcase name="reverseNodes()" classname="OSMParsing.OSMWayTest" time="0.0"/>
+  <testcase name="getFirstNode()" classname="OSMParsing.OSMWayTest" time="0.0"/>
+  <testcase name="getLastNode()" classname="OSMParsing.OSMWayTest" time="0.0"/>
+  <testcase name="getNodes()" classname="OSMParsing.OSMWayTest" time="0.0"/>
+  <testcase name="setName()" classname="OSMParsing.OSMWayTest" time="0.001"/>
+  <testcase name="setType()" classname="OSMParsing.OSMWayTest" time="0.0"/>
+  <testcase name="getLastPoint()" classname="OSMParsing.OSMWayTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

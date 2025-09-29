@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gui.ViewPortTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-09-29T18:58:37" hostname="Mac.hiper.dk" time="0.004">
+  <properties/>
+  <testcase name="containsTest()" classname="gui.ViewPortTest" time="0.0"/>
+  <testcase name="scaleTest()" classname="gui.ViewPortTest" time="0.0"/>
+  <testcase name="midPointTest()" classname="gui.ViewPortTest" time="0.0"/>
+  <testcase name="setBoundsTest()" classname="gui.ViewPortTest" time="0.001"/>
+  <testcase name="moveTest()" classname="gui.ViewPortTest" time="0.0"/>
+  <testcase name="sizeTest()" classname="gui.ViewPortTest" time="0.0"/>
+  <testcase name="ConstructorTest()" classname="gui.ViewPortTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

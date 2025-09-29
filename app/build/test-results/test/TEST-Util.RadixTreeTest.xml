@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Util.RadixTreeTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2025-09-29T18:58:37" hostname="Mac.hiper.dk" time="0.028">
+  <properties/>
+  <testcase name="assertGetKeyesWithPrefixThrowsNullPointerException()" classname="Util.RadixTreeTest" time="0.001"/>
+  <testcase name="assertPutsAndGetsKeysCorrect()" classname="Util.RadixTreeTest" time="0.002"/>
+  <testcase name="assertGetThrowsNullPointerException()" classname="Util.RadixTreeTest" time="0.001"/>
+  <testcase name="assertGetEntriesList()" classname="Util.RadixTreeTest" time="0.001"/>
+  <testcase name="assertContainsValueTrue()" classname="Util.RadixTreeTest" time="0.001"/>
+  <testcase name="assertContainsTrue()" classname="Util.RadixTreeTest" time="0.006"/>
+  <testcase name="assertRemoveEmptyStringReturnNullValue()" classname="Util.RadixTreeTest" time="0.0"/>
+  <testcase name="assertNotEmptyBecauseOfRoot()" classname="Util.RadixTreeTest" time="0.0"/>
+  <testcase name="assertPutsAndSplitsPrefixCorrect()" classname="Util.RadixTreeTest" time="0.0"/>
+  <testcase name="putTwoEqualKeys()" classname="Util.RadixTreeTest" time="0.0"/>
+  <testcase name="assertGetValuesWithPrefixThrowsNullPointerException()" classname="Util.RadixTreeTest" time="0.0"/>
+  <testcase name="assertClear()" classname="Util.RadixTreeTest" time="0.0"/>
+  <testcase name="assertRemovesSuccessfull()" classname="Util.RadixTreeTest" time="0.0"/>
+  <testcase name="assertContainsValueFalse()" classname="Util.RadixTreeTest" time="0.0"/>
+  <testcase name="assertRemoveNullKeyThrowsException()" classname="Util.RadixTreeTest" time="0.0"/>
+  <testcase name="assertSizeWorks()" classname="Util.RadixTreeTest" time="0.0"/>
+  <testcase name="assertGetValuesWithPrefix_List()" classname="Util.RadixTreeTest" time="0.001"/>
+  <testcase name="assertContiansThrowsClassCastExeption()" classname="Util.RadixTreeTest" time="0.0"/>
+  <testcase name="assertGetThrowsClassCastException()" classname="Util.RadixTreeTest" time="0.001"/>
+  <testcase name="assertGetResult()" classname="Util.RadixTreeTest" time="0.0"/>
+  <testcase name="assertRemoveThrowsClassException()" classname="Util.RadixTreeTest" time="0.001"/>
+  <testcase name="assertPutNullKey()" classname="Util.RadixTreeTest" time="0.001"/>
+  <testcase name="assertContainsNullThrowsNullPointerException()" classname="Util.RadixTreeTest" time="0.002"/>
+  <testcase name="assertContainsEmptyString()" classname="Util.RadixTreeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

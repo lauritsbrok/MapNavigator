@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.MenuItem?>
+<?import bfst22.vector.gui.MapCanvas?>
+
+<Scene fx:id="scene" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bfst22.vector.Controller">
+    <root>
+        <BorderPane prefHeight="480.0" prefWidth="946.0">
+            <center>
+                <AnchorPane prefHeight="480.0" prefWidth="949.0" style="-fx-background-color: transparent;" BorderPane.alignment="CENTER">
+                    <children>
+                        <MapCanvas fx:id="canvas" height="${scene.height}" onMouseDragged="#onMouseDragged" onMouseMoved="#onMouseMoved" onMousePressed="#onMousePressed" onScroll="#onScroll" onScrollFinished="#onScrollEnd" width="${scene.width}" />
+                        <TextField fx:id="searchFieldStart" layoutX="14.0" layoutY="14.0" onKeyTyped="#getSearchInput" onKeyPressed="#navigateSuggestionMenu" prefHeight="26.0" prefWidth="317.0" style="-fx-background-color: white;" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+                            <contextMenu>
+                                <ContextMenu fx:id="suggestionsStart" maxHeight="100.0" />
+                            </contextMenu>
+                        </TextField>
+                        <Slider fx:id="zoomSlider" disable="false" layoutX="189.0" layoutY="446.0" onValueChange="#onDrag" prefHeight="15.0" prefWidth="210.0" AnchorPane.bottomAnchor="18.5" AnchorPane.rightAnchor="504.0" />
+                        <TextField fx:id="scaleInfo" alignment="CENTER" editable="false" prefHeight="26.0" prefWidth="51.0" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="445.0" />
+                        <TextField fx:id="mouseInfo" alignment="CENTER" editable="false" layoutX="514.0" layoutY="440.0" prefHeight="26.0" prefWidth="291.0" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+                        <TextField fx:id="mousePos" alignment="CENTER_LEFT" editable="false" layoutX="195.0" layoutY="440.0" prefHeight="26.0" prefWidth="140.0" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="305.0" />
+                        <Polyline fx:id="scaleBar" points="82.66162109375, 54.3203125, 82.5, 60.0, 0.0, 60.0, 0.0, 55.0" stroke="#656565" strokeType="INSIDE" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="820.0" />
+                        <Text fx:id="scaleText" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="82.66162109375" AnchorPane.bottomAnchor="18.0" AnchorPane.rightAnchor="820.0" />
+                        <ComboBox id="dropDownMenu" fx:id="dropDownMenu" layoutX="546.0" layoutY="14.0" prefHeight="26.0" prefWidth="85.0" promptText="Theme" visibleRowCount="3" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="14.0" />
+                        <fx:define>
+                            <ContextMenu fx:id="rightclick" maxHeight="50.0">
+                                <items>
+                                    <MenuItem fx:id="setPointFromBtn" onAction="#setPointFrom" text="Navigate from this point" />
+                                    <MenuItem fx:id="setPointToBtn" onAction="#setPointTo" text="Navigate to this point" />
+                                    <MenuItem fx:id="pontOfInterestBtn" onAction="#handlePointOfInterest" text="Add Point Of Interest" />
+                                    <MenuItem fx:id="debuggerBtn" onAction="#handleDebugger" text="Open Debugger" />
+                                </items>
+                            </ContextMenu>
+                        </fx:define>
+                        <AnchorPane fx:id="expandedSearch" layoutX="14.0" layoutY="51.0" prefHeight="63.0" prefWidth="464.0">
+                            <children>
+                                <TextField fx:id="searchFieldEnd" onKeyTyped="#getSearchInput" onKeyPressed="#navigateSuggestionMenu" prefHeight="26.0" prefWidth="317.0" style="-fx-background-color: white;">
+                                    <contextMenu>
+                                        <ContextMenu fx:id="suggestionsEnd" maxHeight="100.0" />
+                                    </contextMenu>
+                                </TextField>
+                                <Button fx:id="reverseButton" layoutX="422.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reverseButtonPressed" prefHeight="26.0" prefWidth="42.0">
+                                    <font>
+                                        <Font name="System Bold" size="12.0" />
+                                    </font>
+                                    <graphic>
+                                        <ImageView fx:id="reverseButtonIcon" fitHeight="18.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" />
+                                    </graphic>
+                                </Button>
+                                <ChoiceBox fx:id="vehicleMenu" layoutX="327.0" layoutY="1.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#changeVehicle" prefHeight="26.0" prefWidth="87.0" />
+                                <TitledPane fx:id="directionMenu" expanded="false" layoutY="33.0" text="Directions">
+                                    <content>
+                                        <AnchorPane maxHeight="85.0" minHeight="0.0" minWidth="0.0" prefWidth="462.0">
+                                            <children>
+                                                <TextArea fx:id="directionText" prefHeight="85.0" prefWidth="462.0" />
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </TitledPane>
+                                <Text fx:id="totalDistance" layoutX="133.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Distance:" textAlignment="RIGHT" wrappingWidth="326.021484375" />
+                            </children>
+                        </AnchorPane>
+                        <Button fx:id="expandButton" layoutX="435.0" layoutY="13.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#expandButtonPressed" prefHeight="26.0" prefWidth="42.0">
+                            <graphic>
+                                <ImageView fx:id="expandButtonIcon" fitHeight="18.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" />
+                            </graphic>
+                        </Button>
+                        <Button fx:id="searchButton" layoutX="341.0" layoutY="13.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#resetButtonPressed" prefHeight="26.0" prefWidth="87.0" text="Reset" AnchorPane.leftAnchor="341.0" AnchorPane.topAnchor="13.0" />
+                    </children>
+                </AnchorPane>
+            </center>
+        </BorderPane>
+    </root>
+</Scene>
